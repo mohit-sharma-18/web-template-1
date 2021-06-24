@@ -386,6 +386,9 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
     .fix-size{
         height: 161.41px;
     }
+    .box-size-3{
+        margin-top: -10px;
+    }
 }
 
 @media screen and (max-width:992px) {
@@ -485,6 +488,11 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
       padding: 10px 20px!important;
       transition: .5s all;
    }
+   .imgs-gap{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 } 
 
 @media screen and (max-width:576px){
@@ -523,6 +531,11 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
    .latest-1 , .button-2{
        width: fit-content;
    }
+   .imgs-gap{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     
 }
 @media screen and (max-width:425px) {
@@ -562,7 +575,13 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
         padding: 5px 15px!important;
         transition: .5s all;
     }
-
+    .box-size-3{
+        padding-right: 85px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
 }
 @media screen and (max-width:385px){
     .box-width{
