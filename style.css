@@ -417,6 +417,12 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
     .box-margin-2{
         width: 100%;
     }
+    .box-size-3{
+        padding-top: 0!important;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        margin-top: -5px
+    }
 }
 
 @media screen and (max-width:768px){
@@ -468,6 +474,7 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
       width: 100%;
       margin-bottom: 15px;
    }
+   
  
   .box-width{
       width: fit-content;
