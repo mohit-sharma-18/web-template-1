@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Vadodara', sans-serif;
+}
+
+.connect{
+    background-color: black;
+}
+.icon-0{
+    font-size: 1.3rem;
+}
+.icon{
+    transition: .5s all;
+}
+.icon:hover{
+    color:#ffc107;
+    transform: scale(1.1);
+    transition: .5s all;
+}
+.image{
+    background-image: url("slide1.jpg");
+}
+#welcome{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/************************* Drop down************* */
+
+.menu ul li li {
+    list-style: none;
+}
+.menu ul li li a{
+    color: #848484;
+    padding: 8px 0px;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 111;
+    transition: .5s all;
+
+}
+.menu ul li li a:hover{
+    background-color: bisque;
+}
+.menu ul li a:hover ~ .sub-menu {
+   display: block;
+}
+
+
+.menu ul li a{
+    color: #fff;
+}
+.menu ul li a:hover{
+    color: #ffc107;
+}
+
+/************************* Drop down************* */
+
+
+.menubar li li {
+    list-style: none;
+}
+.menubar li li a{
+    color: #848484;
+    text-decoration: none;
+    display: block;
+    font-weight: lighter;
+}
+
+.sub-menu-2{
+    display: none;
+    background-color: #000000;
+    transition: .5s all;
+
+}
+.menubar li li a:hover{
+    background-color: bisque;
+}
+.menubar li a:hover ~ .sub-menu-2 {
+   display: block;
+   transition: .5s all;
+
+}
+.menubar li a:hover{
+    color: #ffc107;
+}
+
+
+/************************* Drop down************* */
+
+
+
+
+#manu{
+    font-size: 6rem;
+    font-weight: bolder;
+}
+#our{
+    font-size: 1.4rem;
+    font-weight: 500;
+    width: 60%;
+}
+
+.learnBtn{
+    border: 2px solid #fff;
+}
+ul li a{
+    font-weight: bold;
+}
+.image2{
+    background-image: url(icon-area-bg.jpg);
+}
+.col-1 , .col-2 , .col-3{
+    background-color: rgb(24, 24, 24);
+}
+.col-1:hover , .col-2:hover , .col-3:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+.user,.home,.industry{
+    font-size: 5rem;
+}
+#head-text{
+    font-weight: 300;
+}
+.image3{
+    background-image: url(train.jpg);
+}
+.col-4{
+    width: 55%;
+}
+#head-text2{
+    font-size: 1.5rem;
+}
+#p-text{
+    line-height: 1.7;
+}
+.img-thumb{
+    width: 100%!important;
+}
+.read-more{
+    font-weight: 500;
+    color: #000;
+}
+.read-more:hover{
+    color: #ffc107;
+    margin-left: 10px;
+    transition: .4s all ease-in-out;
+}
+.image4{
+    background-image: url(project.jpg);
+}
+
+.port-1{
+    background-image: url(portfolio-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.port-2{
+    background-image: url(portfolio-2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.port-3{
+    background-image: url(portfolio-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.port-4{
+    background-image: url(portfolio-4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.margin-remove{
+    --bs-gutter-x:0rem;
+    padding: 6rem 0rem;
+}
+
+.image5{
+    background-image: url(project2.jpg);
+    background-position: center;
+}
+.box{
+    padding: 58px 0px;
+}
+input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
+    border-color: rgba(175, 175, 175, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0);
+    outline: 0 none;
+}
+.line{
+    height: 5px;
+    width: 80px;
+    background-color: #ffc107;
+    border-radius: 5px;
+}
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+.fix-size{
+    height: 227px;
+}
+.image6{
+    background-color: rgb(246, 246, 246);
+}
+.foot{
+    background-color: rgb(15, 15, 15);
+}
+.infos ul{
+    list-style: none;
+    border-left: 1px solid #848484;
+    padding-left: 1.5rem
+}
+.infos ul li{
+    position: relative;
+}
+.infos ul li a{
+    text-decoration: none;
+    color: #848484;
+    padding: 5px 0px;
+    display: block;
+    font-weight: lighter;
+}
+.infos ul li::before{
+    content: "";
+    height: 1px;
+    width: 20px;
+    background-color: #848484;
+    position: absolute;
+    left: -25px;
+    top: 17px;
+}
+.infos ul li a:hover{
+    color: #ffc107;
+}
+.bg-foot{
+    background-color: #000;
+}
+
+
+
+/* ****************BUTTONS********************* */
+
+.button-h{
+    border: 2px solid #ffc107;
+    transition: .5s all;
+}
+.button-all{
+   transition: .5s all;
+}
+
+
+.button-h:hover{
+   background-color: transparent;
+   transform: scale(.95);
+   transition: .5s all;
+   color: #ffc107;
+   border: 2px solid #fff;
+}
+
+.button-all:hover{
+   background-color: transparent;
+   transform: scale(.95);
+   transition: .5s all;
+   color: #ffc107;
+   border: 1px solid #ffc107;
+}
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.btn:active{
+    transform: scale(.89);
+}
+  
+
+/* *****************SIDEBAR********************* */
+
+#sidebar{
+    visibility: collapse;
+    position: fixed;
+    right: 0;
+    top: 0%;
+    height: 100%;
+    width: 0px;
+    background-color: #fff;
+    transition: .5s all ease-out;
+}
+.menubar{
+    list-style: none;
+}
+.menubar li{
+    padding: 10px 0px;
+
+}
+.menubar li a{
+    text-decoration: none;
+    color: #696969
+}
+#toggle{
+    display: none;
+}
+#toggle-label{
+    display: none;
+    position:absolute;
+    right: 270px;
+    top: 96px;
+    width: 20px;
+    height: 20px;
+ 
+}
+
+/*************** LABEL BARS************ */
+
+.bar{
+    height: 3px;
+    background-color: #fff;
+    transition: .3s all;
+}
+.bar-middle{
+    margin: 5px 0px;
+}
+
+
+#toggle:checked ~ #sidebar{
+    visibility: visible;
+    width: 250px;
+    transition: .5s all ease-out;
+}
+#toggle:checked ~ #toggle-label > .bar-middle{
+    opacity: 0;
+}
+#toggle:checked ~ #toggle-label > .bar-top{
+    transform: rotate(135deg);
+    margin-bottom: -5px;
+}
+#toggle:checked ~ #toggle-label > .bar-bottom{
+    transform: rotate(-135deg);
+    margin-top: -10px;
+}
+
+
+
+
+
+      /* Responsive */
+
+
+@media screen and (max-width:1400px) {
+    .partner-img{
+        width: 90%;
+    }
+    #about-company{
+        margin-left: 2rem;
+    }
+    #our{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #about-company{
+        margin-left: 5rem;
+        width: 100%;
+    }
+    .space , .automative , .railway{
+        margin-left: 30px;
+        width: 90%;
+    }
+    .fix-size{
+        height: 161.41px;
+    }
+}
+
+@media screen and (max-width:992px) {
+  .contact{
+      display: none!important;
+    }
+    #toggle-label{
+     display: block;
+    }
+    .menu{
+        display: none;
+    }
+    #about-company{
+        margin-left: 10rem;
+        width: 100%;
+    }
+    .space , .automative , .railway{
+        margin-left: 40px;
+        width: 100%;
+    }
+    .box-margin{
+        margin: 20px 0px;
+      transition: .5s all;
+
+    }
+    .fix-size{
+        height: 450px;
+    }
+    .box-margin-2{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px){
+  
+    #manu{
+        font-size: 4.5rem;
+    }
+    #our{
+        font-size: 1rem;
+        width: 100%;
+    }
+    #head-text{
+        font-size: 1.2rem;
+    }
+
+    .box-size-1{
+    flex-direction: column;
+    }
+    #about-company{
+        margin-left: 0rem;
+   }
+   .about-size{
+      width: 100%;
+      padding-top: 10px;
+   }
+   .fix-size{
+    height: 281px;
+   }
+   .box-portfolio{
+      display: none;
+   }
+   .box-input{
+      flex-direction: column;
+   }
+   .inputs{
+      margin: 5px 0px;
+   }
+   .morebtn{
+      margin: 0rem 0rem 3rem 0rem;
+   }
+   .remove-partner{
+      display: none;
+   }
+   .testimonial-2{
+    margin-top: 2rem;
+   }
+
+  .box-size{
+      width: 100%;
+      margin-bottom: 15px;
+   }
+ 
+  .box-width{
+      width: fit-content;
+      margin: 10px 0px;
+      margin: auto;
+   }
+  .button-1{
+      padding: 10px 20px!important;
+      transition: .5s all;
+   }
+} 
+
+@media screen and (max-width:576px){
+    #manu{
+        font-size: 4rem;
+        transition: .5s all;
+    }
+    #welcome{
+        font-size: 1.3rem;
+    }
+    
+    #p-text{
+        padding: 15px 0px;
+    }
+    #head-text2{
+        margin-bottom: 0px;
+        font-size: 1.3rem;
+    }
+    .mid-box{
+        margin: 20px 0px;
+    }
+    .box-direction{
+        flex-direction: column;
+    }
+    .box-width-2{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .image-width{
+        width: 100%;
+
+    }
+    .testimonial-1 , .testimonial-2{
+        width: 98%;
+    }
+   .latest-1 , .button-2{
+       width: fit-content;
+   }
+    
+}
+@media screen and (max-width:425px) {
+    #toggle-label{
+        
+        right: 50px;
+        position: absolute;
+        z-index: 1111;
+   
+    }
+    .bar{
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        transition: .3s all;
+    }
+
+    #manu{
+        font-size: 3rem;
+        transition: .5s all;
+    }
+
+    .testimonial-1 , .testimonial-2{
+        width: 96%;
+    }
+
+    .space, .automative, .railway{
+        width: 95%;
+    
+    } 
+    .copy-right{
+        text-align: center;
+    }
+    .links-2 {
+        padding-right: 5rem;
+    }
+    .button-3{
+        padding: 5px 15px!important;
+        transition: .5s all;
+    }
+
+}
+@media screen and (max-width:385px){
+    .box-width{
+        margin: auto;
+        padding-top: 20px;
+    }
+    .box-size-3{
+        text-align: center;
+        padding-right: 5rem;
+    }
+    .text-h5{
+        font-size: 1.5rem;
+    }
+    .text-p{
+        margin-bottom: 0px;
+    }
+    #head-text{
+        font-size: 1rem;
+    }
+    #manu{
+        font-size: 2.6rem;
+        transition: .5s all;
+    }
+    #welcome{
+        font-size: 1rem;
+        transition: .5s all;
+    }
+    #our{
+        font-size: .9rem;
+    }
+   
+}
+@media screen and (max-width:320px){
+    #head-text{
+        font-size: .8rem;
+    }
+    .button-1{
+        padding: 5px 15px!important;
+        transition: .5s all;
+    }
+    .links-2 {
+        padding-right: 2rem;
+    }
+    .foot-text{
+        font-size: .9rem;
+    }
+    .button-2{
+       margin-top: 20px;
+    }
+}
+
+
+
+
