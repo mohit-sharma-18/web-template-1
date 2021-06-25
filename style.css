@@ -20,7 +20,7 @@
     transition: .5s all;
 }
 .image{
-    background-image: url("slide1.jpg");
+    background-image: url("images/slide1.jpg");
 }
 #welcome{
     font-size: 1.5rem;
@@ -49,10 +49,8 @@
     transition: .5s all;
 
 }
-.menu ul li li a:hover{
-    background-color: bisque;
-}
-.menu ul li a:hover ~ .sub-menu {
+
+.menu ul li:hover > .sub-menu {
    display: block;
 }
 
@@ -83,10 +81,8 @@
     transition: .5s all;
 
 }
-.menubar li li a:hover{
-    background-color: bisque;
-}
-.menubar li a:hover ~ .sub-menu-2 {
+
+.menubar li:hover > .sub-menu-2 {
    display: block;
    transition: .5s all;
 
@@ -118,7 +114,7 @@ ul li a{
     font-weight: bold;
 }
 .image2{
-    background-image: url(icon-area-bg.jpg);
+    background-image: url("images/icon-area-bg.jpg");
 }
 .col-1 , .col-2 , .col-3{
     background-color: rgb(24, 24, 24);
@@ -134,7 +130,7 @@ ul li a{
     font-weight: 300;
 }
 .image3{
-    background-image: url(train.jpg);
+    background-image: url("images/train.jpg");
 }
 .col-4{
     width: 55%;
@@ -158,29 +154,29 @@ ul li a{
     transition: .4s all ease-in-out;
 }
 .image4{
-    background-image: url(project.jpg);
+    background-image: url("images/project.jpg");
 }
 
 .port-1{
-    background-image: url(portfolio-1.jpg);
+    background-image: url("images/portfolio-1.jpg");
     background-position: center;
     background-size: cover;
     height: 400px;
 }
 .port-2{
-    background-image: url(portfolio-2.jpg);
+    background-image: url("images/portfolio-2.jpg");
     background-position: center;
     background-size: cover;
     height: 400px;
 }
 .port-3{
-    background-image: url(portfolio-3.jpg);
+    background-image: url("images/portfolio-3.jpg");
     background-position: center;
     background-size: cover;
     height: 400px;
 }
 .port-4{
-    background-image: url(portfolio-4.jpg);
+    background-image: url("images/portfolio-4.jpg");
     background-position: center;
     background-size: cover;
     height: 400px;
@@ -192,7 +188,7 @@ ul li a{
 }
 
 .image5{
-    background-image: url(project2.jpg);
+    background-image: url("images/project2.jpg");
     background-position: center;
 }
 .box{
