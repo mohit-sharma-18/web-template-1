@@ -266,7 +266,7 @@ input[type=text]:focus ,input[type=email]:focus,input[type=phone]:focus {
    background-color: transparent;
    transform: scale(.95);
    transition: .5s all;
-   color: #ffc107;
+   color: #ffc107!important;
    border: 2px solid #fff;
 }
 
